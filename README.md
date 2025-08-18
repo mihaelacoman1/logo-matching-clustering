@@ -15,7 +15,7 @@ For Windows:
 For Linux:
 - Navigate to `setup/Linux` and run `setup.sh`.
 
-  After the packages were installed, navigate to the root directory and run `python main.py`.
+After the packages were installed, navigate to the root directory and run `python main.py`.
 
 # Idea/Workflow
   Long story short, the idea behind the code was to scrape the logos from the given websites and vector embed them, i.e. convert them from an image to a vector. This conversion is not random. It should follow the rule that visually similar logos should have vectors which point to points which are close to each other. One way to do this is to have a neural network that was trained to achieve such thing.
